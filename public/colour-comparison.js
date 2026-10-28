@@ -1,0 +1,1 @@
+const observer=new ResizeObserver(entries=>{for(const entry of entries){entry.target.style.setProperty('--scale',entry.contentRect.width/1300)}});document.querySelectorAll('.preview').forEach(el=>observer.observe(el));
