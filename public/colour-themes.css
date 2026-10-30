@@ -71,3 +71,10 @@ header .brand-logo-image{display:block;width:230px;height:auto;object-fit:contai
 header>.brand-with-image .brand-tagline{text-align:center;font-size:10px;line-height:1.4;letter-spacing:.3px}
 @media(max-width:800px){header .brand-logo-image{width:200px}}
 @media(max-width:600px){header .brand-logo-image{width:180px}header>.brand-with-image .brand-tagline{font-size:9px}}
+
+/* Lower the caption and place the route card beneath the photograph. */
+.hero-visual .photo-caption{bottom:24px}
+.hero-visual .photo-gradient{inset:65% 0 0}
+.hero-visual .route-card{position:relative;left:auto;right:auto;bottom:auto;margin-top:16px}
+.hero-visual{padding-bottom:0}
+@media(max-width:600px){.hero-visual .photo-caption{bottom:20px}}
