@@ -60,3 +60,7 @@ header>.brand svg{margin-top:1px}
 @media(max-width:1150px) and (min-width:801px){header{gap:16px;padding-left:30px;padding-right:30px}header nav{gap:16px;font-size:11px}header>.button.small{padding:10px;font-size:10px;gap:9px}header>.brand{font-size:23px}}
 @media(max-width:800px){header{min-height:132px}header>.brand{font-size:24px}header nav.open{top:100%}header{position:relative}}
 @media(max-width:600px){header>.brand{font-size:22px}.brand-tagline{font-size:10px}.faq-coaching-answer{font-size:12px}}
+
+/* Keep all four professionals visible in the homepage group portrait. */
+.hero-visual .photo-frame{aspect-ratio:4 / 5;height:auto}
+.hero-visual .photo-frame img{object-position:50% 35%}

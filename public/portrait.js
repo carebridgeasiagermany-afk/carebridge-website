@@ -1,5 +1,6 @@
-if(document.documentElement.dataset.palette==='violet'){
- const portrait=document.querySelector('.photo-frame img');
- portrait.src='assets/indian-healthcare-professional.jpg';
- portrait.alt='AI-generated illustrative portrait of an Asian healthcare professional in blue-violet scrubs';
+// Shared group portrait for both website colour themes.
+const portrait=document.querySelector('.photo-frame img');
+if(portrait){
+ portrait.src='assets/asian-healthcare-team.jpg';
+ portrait.alt='AI-created illustrative group portrait of four women healthcare professionals representing India, Sri Lanka, Vietnam and China';
 }
