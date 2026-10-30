@@ -64,3 +64,10 @@ header>.brand svg{margin-top:1px}
 /* Keep all four professionals visible in the homepage group portrait. */
 .hero-visual .photo-frame{aspect-ratio:4 / 5;height:auto}
 .hero-visual .photo-frame img{object-position:50% 35%}
+
+/* Supplied MedCare Voyage logo, preserving its original artwork. */
+header>.brand-with-image{display:flex;flex-direction:column;align-items:center;gap:5px}
+header .brand-logo-image{display:block;width:230px;height:auto;object-fit:contain}
+header>.brand-with-image .brand-tagline{text-align:center;font-size:10px;line-height:1.4;letter-spacing:.3px}
+@media(max-width:800px){header .brand-logo-image{width:200px}}
+@media(max-width:600px){header .brand-logo-image{width:180px}header>.brand-with-image .brand-tagline{font-size:9px}}
